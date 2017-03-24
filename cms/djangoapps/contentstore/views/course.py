@@ -85,7 +85,12 @@ from util.milestones_helpers import (
     is_prerequisite_courses_enabled,
     is_valid_course_key,
     remove_prerequisite_course,
-    set_prerequisite_courses
+    set_prerequisite_courses,
+)
+from util.organizations_helpers import (
+    add_organization_course,
+    get_organization_by_short_name,
+    organizations_enabled,
 )
 from util.string_utils import _has_non_ascii_characters
 from xblock_django.api import deprecated_xblocks
