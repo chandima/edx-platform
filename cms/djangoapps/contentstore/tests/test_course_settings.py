@@ -15,7 +15,7 @@ from django.test.utils import override_settings
 
 from contentstore.utils import reverse_course_url, reverse_usage_url
 from milestones.models import MilestoneRelationshipType
-from models.settings.course_grading import CourseGradingModel, GRADING_POLICY_CHANGED_EVENT_TYPE, hash_grading_policy
+from models.settings.course_grading import CourseGradingModel
 from models.settings.course_metadata import CourseMetadata
 from models.settings.encoder import CourseSettingsEncoder
 from openedx.core.djangoapps.self_paced.models import SelfPacedConfiguration
