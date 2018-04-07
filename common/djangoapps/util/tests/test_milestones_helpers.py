@@ -12,7 +12,6 @@ from milestones.models import MilestoneRelationshipType
 from util import milestones_helpers
 from xmodule.modulestore.tests.django_utils import ModuleStoreTestCase
 from xmodule.modulestore.tests.factories import CourseFactory
-from util import milestones_helpers
 
 
 @patch.dict('django.conf.settings.FEATURES', {'MILESTONES_APP': False})
