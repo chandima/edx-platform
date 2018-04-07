@@ -15,7 +15,7 @@ from xmodule.modulestore.tests.factories import CourseFactory
 from util import milestones_helpers
 
 
-@patch.dict(settings.FEATURES, {'MILESTONES_APP': False})
+-@patch.dict('django.conf.settings.FEATURES', {'MILESTONES_APP': False})
 @ddt.ddt
 class MilestonesHelpersTestCase(ModuleStoreTestCase):
     """
