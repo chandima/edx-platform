@@ -24,7 +24,7 @@ edx-i18n-tools            # Commands for developers and translators to extract, 
 edx-lint                  # pylint extensions for Open edX repositories
 factory_boy==2.8.1        # Library for creating test fixtures, used in many tests
 freezegun                 # Allows tests to mock the output of assorted datetime module functions
-httpretty                 # Library for mocking HTTP requests, used in many tests
+httpretty==0.8.14         # Library for mocking HTTP requests, used in many tests
 isort                     # For checking and fixing the order of imports
 moto==0.3.1               # Lets tests mock AWS access via the boto library
 nose                      # Former test runner, we're still using some utility functions from it
